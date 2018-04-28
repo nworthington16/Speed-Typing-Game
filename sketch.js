@@ -11,7 +11,6 @@ function setup() {
 		str += word;
 		currWords.push(word);
 		str += (" ");
-
 	}
 	// need to keep track of current word & current letter
 	currWord = currWords[0];
@@ -19,10 +18,7 @@ function setup() {
 	letterInd = 0;
 	correct = true;
 	// timer
-	seconds = 60;
-	timer = createElement('h1', seconds);
-	timer.position(115, height/3 + 5);
-	setInterval(timeInc, 1000);
+	timerSetup();
 	// stats
 	wordStatStr = "Correct words: ";
 	accuracyStr = "Accuracy: ";
@@ -63,6 +59,13 @@ function draw() {
 	// outline
 	noFill();
 	rect(5, 5, width - 10, height - 10);
+}
+
+function timerSetup() {
+	seconds = 60;
+	timer = createElement('h1', seconds);
+	timer.position(115, height/3 + 5);
+	setInterval(timeInc, 1000);
 }
 
 function timeInc() {

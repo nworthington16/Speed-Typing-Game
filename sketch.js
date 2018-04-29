@@ -142,7 +142,7 @@ function drawInput() {
 	text(input, width/2 - width/4 + 15, 135 + 18, 300, 65);
 }
 
-// 150 most common (?) words
+// 200 most common (?) words
 wordList = ["the", "be", "of", "and", "a", "to", "in", "he", "have", "it",
 "that", "for", "they", "I", "with", "as", "not", "on", "she", "at",
 "by", "this", "we", "you", "do", "but", "from", "or", "which", "one",
@@ -157,4 +157,9 @@ wordList = ["the", "be", "of", "and", "a", "to", "in", "he", "have", "it",
 "little", "world", "very", "still", "nation", "hand", "old", "life", "tell", "write",
 "become", "here", "show", "house", "both", "between", "need", "mean", "call", "develop",
 "under", "last", "right", "move", "thing", "general", "school", "never", "same", "another",
-"begin", "while", "number", "part", "turn", "real", "leave", "might", "want", "point"];
+"begin", "while", "number", "part", "turn", "real", "leave", "might", "want", "point",
+"from", "off", "child", "few", "small", "since", "against", "ask", "late", "home",
+"interest", "large", "person", "end", "open", "public", "follow", "during", "present", "without",
+"again", "hold", "govern", "around", "possible", "head", "consider", "word", "program", "problem",
+"however", "lead", "system", "set", "order", "eye", "plan", "run", "keep", "face",
+"fact", "group", "play", "stand", "increase", "early", "course", "change", "help", "line"];
